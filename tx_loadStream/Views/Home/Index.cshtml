@@ -1,0 +1,10 @@
+﻿@model tx_loadStream.Models.Document
+
+@using TXTextControl.Web
+@using TXTextControl.Web.MVC
+
+@Html.TXTextControl().TextControl(settings => {
+    settings.Dock = TXTextControl.Web.DockStyle.Window;
+}
+).LoadText(Convert.FromBase64String(Model.BinaryDocument), BinaryStreamType.WordprocessingML).Render()
+
