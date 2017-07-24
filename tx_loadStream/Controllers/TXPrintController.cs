@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Http;
 using TXTextControl.Web;
 
-namespace tx_poc_healthpartners.Controllers {
+namespace tx_loadStream.Controllers {
 	public class TXPrintController : ApiController {
 		public HttpResponseMessage Get() {
 			var printHandler = new TXPrintHandler();

@@ -1,4 +1,4 @@
-﻿<style>
+<style>
    #txOFDTxtFileName {
       width: 96%;
    }
@@ -22,11 +22,11 @@
       width: 100%;
    }
 
-      #txOFDTblFilesAndFolders td {
-         overflow: hidden;
-         white-space: nowrap;
-         /* padding: 0px; */
-      }
+   #txOFDTblFilesAndFolders td {
+      overflow: hidden;
+      white-space: nowrap;
+      /* padding: 0px; */
+   }
 
    #openFileDialog {
       padding-left: 8px;
@@ -41,9 +41,9 @@
       background: rgba(114, 177, 224, 0.74);
    }
 
-      #txOFDTblFilesAndFolders tr.selected:hover {
-         background: rgba(124, 194, 246, 0.74);
-      }
+   #txOFDTblFilesAndFolders tr.selected:hover {
+      background: rgba(124, 194, 246, 0.74);
+   }
 
    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
       /* iPad specific */
@@ -56,20 +56,16 @@
       }
    }
 </style>
-<div
-   id="openFileDialog"
-   class="txDialog">
+<div id="openFileDialog" class="txDialog">
    <form>
-      <table
-         style="border-collapse: collapse; border-spacing: 0px; margin-top: 5px; margin-right: -10px"
-         class="unselectable">
+      <table style="border-collapse: collapse; border-spacing: 0px; margin-top: 5px; margin-right: -10px" class="unselectable">
          <tr>
             <td>
                <div id="txOFDFilesAndFolders">
                   <table id="txOFDTblFilesAndFolders">
                      <colgroup>
-                        <col style="width: 20px" />
-                        <col />
+                        <col style="width: 20px">
+                        <col>
                      </colgroup>
                      <!-- Table rows generated here -->
                   </table>
@@ -78,36 +74,26 @@
          </tr>
          <tr>
             <td>
-               <label
-                  id="OPEN_FILE_DIALOG_LBL_FILENAME"
-                  for="txOFDTxtFileName">
+               <label id="OPEN_FILE_DIALOG_LBL_FILENAME" for="txOFDTxtFileName">
                   OPEN_FILE_DIALOG_LBL_FILENAME
-                   
                </label>
             </td>
          </tr>
          <tr>
             <td>
-               <input
-                  type="text"
-                  id="txOFDTxtFileName"
-                  value="txOFDTxtFileName" />
+               <input type="text" id="txOFDTxtFileName" value="txOFDTxtFileName">
             </td>
          </tr>
          <tr>
             <td>
-               <label
-                  id="OPEN_FILE_DIALOG_LBL_FILETYPE"
-                  for="txOFDSelFileType">
+               <label id="OPEN_FILE_DIALOG_LBL_FILETYPE" for="txOFDSelFileType">
                   OPEN_FILE_DIALOG_LBL_FILETYPE
-                   
                </label>
             </td>
          </tr>
          <tr>
             <td>
-               <select
-                  id="txOFDSelFileType">
+               <select id="txOFDSelFileType">
                   <!-- option elements generated here -->
                </select>
             </td>
