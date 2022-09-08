@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Http;
 using TXTextControl.Web;
 
-namespace tx_loadStream.Controllers {
+namespace $rootNamespace$.Controllers {
 	public class TXPrintController : ApiController {
 		public HttpResponseMessage Get() {
 			var printHandler = new TXPrintHandler();
