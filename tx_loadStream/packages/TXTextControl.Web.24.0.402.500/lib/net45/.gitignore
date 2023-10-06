@@ -1,5 +1,0 @@
-# This file's only purpose is to allow its otherwise empty parent 
-# directory to be part of the git repository.
-*
-
-!.gitignore
